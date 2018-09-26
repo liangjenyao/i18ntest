@@ -23,7 +23,7 @@
         <td><%= link_to 'Show', product %></td>
         <td><%= link_to 'Edit', edit_product_path(product) %></td>
         <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-        <td><%= l product.created_at, formats: :short %></td>
+        <td><%= l product.created_at, formats: :long %></td>
       </tr>
     <% end %>
   </tbody>
