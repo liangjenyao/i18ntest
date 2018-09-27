@@ -1,0 +1,28 @@
+Last login: Thu Sep 20 16:06:31 on ttys000
+adominisutoreshon-pishi65noMacBook-puro:~ innova-pc65$ bandle e rails dbconsole
+-bash: bandle: command not found
+adominisutoreshon-pishi65noMacBook-puro:~ innova-pc65$ bundle e rails dbconsole
+Could not locate Gemfile or .bundle/ directory
+adominisutoreshon-pishi65noMacBook-puro:~ innova-pc65$ ls
+Applications		Library			Public
+Desktop			Movies			alyssum-pegasus-bff
+Documents		Music			dump.rdb
+Downloads		Pictures		leadmaster
+adominisutoreshon-pishi65noMacBook-puro:~ innova-pc65$ cd Desktop/
+adominisutoreshon-pishi65noMacBook-puro:Desktop innova-pc65$ ls
+rails_test	メモ		ソフト
+adominisutoreshon-pishi65noMacBook-puro:Desktop innova-pc65$ cd rails_test/
+adominisutoreshon-pishi65noMacBook-puro:rails_test innova-pc65$ ls
+haml_test
+adominisutoreshon-pishi65noMacBook-puro:rails_test innova-pc65$ cd haml_test/
+
+adominisutoreshon-pishi65noMacBook-puro:haml_test innova-pc65$ bundle e rails dbconsole
+SQLite version 3.19.3 2017-06-27 16:48:08
+Enter ".help" for usage hints.
+
+sqlite> select * from products;
+1|aaa|qwqsq|111|0|2018-09-20 07:19:02.203317|2018-09-20 07:20:52.230904
+3|1|22|2222|0|2018-09-20 07:57:42.763999|2018-09-20 07:57:42.763999
+4|fgっdhg|っw|11111|0|2018-09-20 08:51:33.954265|2018-09-20 08:51:33.954265
+
+sqlite>.quit
